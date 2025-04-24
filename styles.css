@@ -1,0 +1,296 @@
+/* ----------------------------- Fonts ----------------------------------------- */
+
+p, h1, h2, h3, h4, h5, h6, a, li{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigation-group p{
+    font-size:14px;
+}
+
+.navigation-group{
+    color:black;
+}
+
+.service-area, .service-price{
+    font-size:2em;
+}
+
+.service-description{
+    font-size:1.2rem;
+    font-weight:300;
+}
+
+.pre-wax h2, .post-wax h2{
+    color:#07460a;
+    font-weight:800;
+    font-size:1.6em;
+    margin-bottom:10px;
+}
+
+.pre-wax-do h3, .pre-wax-do p{
+    color:#07460a;
+}
+
+.pre-wax-do h3{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.pre-wax-avoid h3, .pre-wax-avoid p{
+    color:#fffcf9;
+}
+
+.pre-wax-avoid h3{
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.post-wax h3{
+    color:#bbac23;
+    font-size:1.2em;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+
+
+.font-definition{
+    font-size:.8em;
+}
+
+.contact-me p{
+    color:black;
+}
+
+.social{
+    text-decoration: underline;
+}
+
+
+/* ----------------------------- Containers ----------------------------------------- */
+
+.large-container{
+    width:1200px;
+    margin:0 auto;
+}
+
+.small-container{
+    width:600px;
+    margin:0 auto;
+}
+
+/* ----------------------------- Margin & Padding ------------------------------------- */
+
+.navigation-padding{
+    padding-top:170px;
+}
+
+.button-spacing{
+    margin-right:40px;
+}
+
+.footer-top-margin{
+    margin-top:80px;
+}
+
+.section-margin-top{
+    margin-top:60px;
+}
+
+.paragraph-margin-top{
+    margin-top:15px;
+}
+
+.social-top-margin{
+    margin-top:50px;
+}
+
+.footer-logo{
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+/* --- OWL ---*/
+
+.navigation-group + .navigation-group{
+    margin-left:40px;
+}
+
+.pre-wax-do + .pre-wax-do, .pre-wax-avoid + .pre-wax-avoid{
+    margin-left:20px;
+}
+
+.social + .social{
+    margin-left:80px;
+}
+
+.contact-me + .contact-me{
+    margin-left:100px;
+}
+
+
+/* ----------------------------- Navigation ----------------------------------------- */
+header{
+    background-color: #ffffff;
+    padding: 10px 0px;
+    box-shadow: 0px 5px 30px rgb(175, 142, 50);
+}
+
+.nav-left-margin{
+    margin-left:30px;
+}
+
+.nav-right-margin{
+    margin-right:30px;
+}
+
+.navigation-group{
+    text-decoration: none;
+}
+
+
+
+/* ----------------------------- Footer ----------------------------------------- */
+
+
+
+/* ----------------------------- Buttons ----------------------------------------- */
+
+.yellow-button{
+    padding:5px;
+    background-color:khaki;
+    border-top:4px solid brown;
+}
+
+.red-button{
+    background-color:#f3811e;
+    padding:10px 0 15px 0;
+    border-top: 4px solid green;
+}
+
+.red-button p{
+    color:#ffffff;
+    font-size:18px;
+    font-weight:800;
+}
+
+
+
+/* ----------------------------- Boxes ----------------------------------------- */
+
+.pre-wax-do{
+    background-color: #efe6be;
+    background-color:#b3d028;
+    border:4px solid #9d7126;
+    width:280px;
+    padding:10px 20px 20px 20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.pre-wax-avoid{
+    background-color: #07460a; 
+     padding:10px 20px 20px 20px;
+     width:280px;
+     border:6px solid #f3811e;
+     background-color: #c93a35;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+ }
+
+ .post-wax-avoid-card{
+    background-color: #f7f2dd;
+    border:4px solid #e7d20f;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding:15px 20px 30px 20px;
+}
+
+/* ----------------------------- Page Specific ------------------------------------ */
+
+/*------- Menu & Pricing ------ */
+
+.content-menu li{
+    border-bottom:1px solid gray;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/*------- Pre-Wax Care ------ */
+
+
+
+
+
+
+/* --------Post Wax ----------- */
+
+
+
+.post-wax ul{
+    list-style-type: disc;
+    padding-left:25px;
+}
+
+
+/* ----------------------------- Basic ----------------------------------------- */
+
+.flex-container{
+    display: flex;
+}
+
+.flex-right{
+    margin-left:auto;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.inline{
+    display:inline;
+}
+
+.block{
+    display:block;
+}
+
+.position-fixed{
+    position:fixed;
+}
+
+.position-relative{
+    position:relative;
+}
+
+.center-text{
+    text-align:center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.center-block{
+    margin:0 auto;
+}
+
+.width-100{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
