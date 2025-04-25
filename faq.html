@@ -9,6 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			  crossorigin="anonymous"></script>
   <title>FAQs</title>
 </head>
 <body>
@@ -78,22 +82,58 @@
 
     
     <main class="navigation-padding large-container">
-        <section class="content-menu small-container">
+        <div class="content-menu small-container">
             <h2>Frequently Asked Questions</h2>
-            
-        </section>
+            <section class="section-margin-top faq-box">
+                <h3 class="question" onclick="showAnswer('question1')" >What Is Sugar Waxing?</h3>
+                <p id="question1" class="answer hide">Sugar waxing, or sugaring, is a natural hair removal method using a paste made of sugar, lemon juice, and water. It removes hair from the root, similar to traditional waxing.</p>
+            </section>
+            <section class="faq-box">
+                <h3 class="question" onclick="showAnswer('question2')">Does Sugaring Hurt?</h3>
+                <p id="question2" class="answer hide">Sugaring is a form of waxing so there will be some pain. While other waxes adhere to the hair and skin, sugaring will only adhere to the hair which can lead to less irritation.</p>
+            </section>
+            <section class="faq-box">
+                <h3 class="question" onclick="showAnswer('question3')">How Long Do Waxing Results Last?</h3>
+                <p id="question3" class="answer hide">Hair regrowth usually takes 3 to 6 weeks. To keep the smooth appearance, it is recommended to book a waxing every 4 to 6 weeks.</p>
+            </section>
+            <section class="faq-box">
+                <h3 class="question" onclick="showAnswer('question4')">How Long Does Hair Need To Be For Sugaring?</h3>
+                <p id="question4" class="answer hide">Hair should be about 1/8 to 1/4 inch long (roughly the length of a grain of rice) for best results.</p>
+            </section>
+        </div>
     </main>
 
-  <footer>
-    <a class="" href="#">
-                <div class="">
-                    
-                    <img class="" src="images/banana-phone-icon.png" height="75" width="75" alt="banana that looks like a telephone [icon]">
-                    <p class="">Call</p>
-                    
-                </div>
-            </a>
-  </footer>
+    <footer>
+        <section class="large-container footer-top-margin">
+            <div class="center-text flex-container flex-center">
+                
+                <a class="contact-me" href="#">
+                    <div>
+                        <img class="" src="images/banana-phone-icon.png" height="75" width="75" alt="banana that looks like a telephone [icon]">
+                        <p class="">Call</p>
+                    </div>
+                </a>
+                <a class="contact-me" href="#"></a>
+                    <div>
+                        <img class="" src="images/text-icon.png" height="75" width="75" alt="banana that looks like a telephone [icon]">
+                        <p class="">Text</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section>
+            <div class="flex-container flex-center social-top-margin">
+                <a class="social" href="#">Facebook</a>
+                <a class="social" href="#">Instagram</a>
+                <a class="social" href="#">Yelp</a>
+            </div>
+        </section>
+        <section>
+            <div class="large-container center-text footer-logo"><p>Waxed Fruit Studio</p></div>
+            
+        </section>
+        
+      </footer>
   <script src="scripts.js"></script>
 </body>
 </html>
