@@ -243,7 +243,7 @@ header{
 /* ------- FAQ -----------*/
 
 .question{
-    color:rgb(15, 134, 15);
+    color:rgb(8, 8, 8);
     font-size:1.4em;
     font-weight:600;
     cursor:pointer;
@@ -256,7 +256,7 @@ header{
 
 .faq-box{
     margin-top:20px;
-    background-color:#fcc0dd;
+    background-color:#ff5778;
     color:#252525;
     border:4px solid rgb(15, 134, 15);
     padding:15px 20px;
