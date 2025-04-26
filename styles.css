@@ -30,6 +30,13 @@ h2{
     margin-bottom:10px;
 }
 
+.sugaring-explained h3{
+    color:rgb(206, 124, 17);
+    font-weight:600;
+    font-size:1.4em;
+    margin-bottom:5px;
+}
+
 .pre-wax-do h3, .pre-wax-do p{
     color:#07460a;
 }
