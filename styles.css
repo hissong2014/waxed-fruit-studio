@@ -235,6 +235,18 @@ header{
     padding:15px 20px 30px 20px;
 }
 
+.profile-box-style{
+    background-color: rgb(255, 255, 215);
+    border:4px solid #A14712;
+    padding:20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.profile-box-style img{
+    border:8px solid rgb(238, 223, 20);
+}
+
 /* ----------------------------- Page Specific ------------------------------------ */
 
 /*------- Menu & Pricing ------ */
