@@ -6,14 +6,6 @@ p, h1, h2, h3, h4, h5, h6, a, li{
     font-style: normal;
 }
 
-.navigation-group p{
-    font-size:14px;
-}
-
-.navigation-group{
-    color:black;
-}
-
 .service-area, .service-price{
     font-size:2em;
 }
@@ -102,9 +94,7 @@ h2{
 
 /* ----------------------------- Margin & Padding ------------------------------------- */
 
-.navigation-padding{
-    padding-top:170px;
-}
+
 
 .button-spacing{
     margin-right:40px;
@@ -138,9 +128,7 @@ h2{
 
 /* --- OWL ---*/
 
-.navigation-group + .navigation-group{
-    margin-left:40px;
-}
+
 
 .pre-wax-do + .pre-wax-do, .pre-wax-avoid + .pre-wax-avoid{
     margin-left:20px;
@@ -160,6 +148,39 @@ header{
     background-color: #ffffff;
     padding: 10px 0px;
     box-shadow: 0px 5px 30px rgb(175, 142, 50);
+    display:flex;
+    position:fixed;
+    width:100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding: 15px 30px;
+}
+
+nav{
+    margin-left:auto;
+}
+
+
+.menu{
+    display:flex;
+}
+.navigation-group p{
+    font-size:14px;
+}
+
+.navigation-group{
+    color:black;
+    text-decoration: none;
+}
+
+.navigation-group img{
+    width:100px;
+    height:100px;
+}
+
+.navigation-group + .navigation-group{
+    margin-left:40px;
 }
 
 .nav-left-margin{
@@ -170,9 +191,25 @@ header{
     margin-right:30px;
 }
 
-.navigation-group{
-    text-decoration: none;
+.navigation-padding{
+    padding-top:170px;
 }
+
+.toggle-button {
+    padding:5px 10px;
+    display: none; 
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    color: rgb(19, 52, 236);
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(19, 52, 236);
+    font-size: 16px;
+    position:fixed;
+    top: 15px;
+    right: 15px;
+  }
 
 
 
@@ -188,17 +225,16 @@ header{
     border-top:4px solid brown;
 }
 
-.red-button{
+.book-button{
     background-color:#f3811e;
     padding:10px 0 15px 0;
     border-top: 4px solid green;
-}
-
-.red-button p{
     color:#ffffff;
     font-size:18px;
     font-weight:800;
+    display:block;
 }
+
 
 
 
@@ -298,7 +334,7 @@ header{
 
 /* ----------------------------- Basic ----------------------------------------- */
 
-.flex-container{
+.flex-container, .flex-container-navigation, .flex-container-header{
     display: flex;
 }
 
