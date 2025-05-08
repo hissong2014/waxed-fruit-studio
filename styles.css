@@ -1,49 +1,11 @@
-
-
-.sugaring-explained h3{
-    color:rgb(206, 124, 17);
-    font-weight:600;
-    font-size:1.4em;
-    margin-bottom:5px;
-}
-
-
-
-
-
-.profile-name-style{
-    font-size:1.8em;
-    font-weight: 600;
-    color:rgb(0, 0, 0);
-}
-
 .font-definition{
     font-size:.8em;
 }
 
-.contact-me p{
-    color:black;
-}
-
-.social{
-    text-decoration: underline;
-}
-
-
-
-
-
-
 /* ----------------------------- Margin & Padding ------------------------------------- */
-
-
 
 .button-spacing{
     margin-right:40px;
-}
-
-.footer-top-margin{
-    margin-top:80px;
 }
 
 .section-margin-top{
@@ -52,34 +14,6 @@
 
 .paragraph-margin-top{
     margin-top:15px;
-}
-
-.social-top-margin{
-    margin-top:50px;
-}
-
-.footer-logo{
-    margin-top:30px;
-    margin-bottom:50px;
-}
-
-.margin-profile-description{
-    margin-top:20px;
-    margin-left:40px;
-}
-
-/* --- OWL ---*/
-
-
-
-
-
-.social + .social{
-    margin-left:80px;
-}
-
-.contact-me + .contact-me{
-    margin-left:100px;
 }
 
 
@@ -170,19 +104,32 @@ footer{
     margin-bottom:40px;
 }
 
-/* ----------------------------- Boxes ----------------------------------------- */
+.contact-me p{
+    color:black;
+}
 
-.profile-box-style{
-    background-color: rgb(255, 255, 215);
-    border:4px solid #A14712;
-    padding:20px;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-     box-sizing: border-box;         /* Opera/IE 8+ */
+.social{
+    text-decoration: underline;
 }
-.profile-box-style img{
-    border:8px solid rgb(238, 223, 20);
+
+.social-top-margin{
+    margin-top:50px;
 }
+
+.footer-logo{
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.social + .social{
+    margin-left:80px;
+}
+
+.contact-me + .contact-me{
+    margin-left:100px;
+}
+
+
 
 /* ----------------------------- Page Specific ------------------------------------ */
 
@@ -275,6 +222,42 @@ footer{
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
     padding:15px 20px 30px 20px;
+}
+
+/* ------- See The Studio ------*/
+
+/* ------- What Is Sugaring ------*/
+
+.sugaring-explained h3{
+    color:rgb(206, 124, 17);
+    font-weight:600;
+    font-size:1.4em;
+    margin-bottom:5px;
+}
+
+/* ------- Meet the Sugarist ------*/
+
+.profile-name-style{
+    font-size:1.8em;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+}
+
+.margin-profile-description{
+    margin-top:20px;
+    margin-left:40px;
+}
+
+.profile-box-style{
+    background-color: rgb(255, 255, 215);
+    border:4px solid #A14712;
+    padding:20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.profile-box-style img{
+    border:8px solid rgb(238, 223, 20);
 }
 
 /* ------- FAQ -----------*/
