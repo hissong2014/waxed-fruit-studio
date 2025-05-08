@@ -116,7 +116,19 @@
 
 @media (max-width: 600px){
     .small-container{
-        width:90%;
+        width:100%;
         margin:0 auto;
+    }
+
+    .post-wax{
+        padding-left:20px;
+        padding-right:20px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+    }
+
+    .post-wax-avoid-card{
+        width:80%;
     }
 }
