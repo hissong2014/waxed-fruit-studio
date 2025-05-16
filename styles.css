@@ -120,6 +120,12 @@ footer{
 
 /* ----------------------------- Page Specific ------------------------------------ */
 
+/*------- Index Page ------ */
+
+.main-image{
+    width:100%;
+}
+
 /*------- Menu & Pricing ------ */
 
     .service-area, .service-price{
