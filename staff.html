@@ -6,60 +6,62 @@
   <meta name="description" content="">
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="mobile-styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
   <title>Meet The Sugarist</title>
 </head>
 <body>
 
-    <header class="position-fixed width-100 flex-container nav-padding-bottom">
-        <div class="nav-left-margin">
-            <h1 class="inline">Waxed Fruit Studio</h1>
-            <a href="#">
-                <div class="red-button center-text">
-                    <p class="font-ibm">
-                        Book An Appointment
-                    </p>
-                </div>
-            </a>
-            
+    <header>
+        <div>
+            <h1>Waxed Fruit Studio</h1>
+            <a href="#" class="book-button center-text">Book An Appointment</a>
+            <button id="hamburger-menu" class="toggle-button" onclick="toggleMenu()">☰ Menu</button>
         </div>
-        <nav class="flex-container flex-right nav-right-margin">    
+        <nav>  
+              
+            
+            <div id="menu" class="menu">
             <a class="navigation-group" id="nav1" href="./index.html">
                 <div class="center-text">
-                <img class="navigation-image" height="100" width="100" src="images/menu-icon.png" alt="restaurant menu [icon]">
+                <img class="navigation-image" src="images/menu-icon.png" alt="restaurant menu [icon]">
                 <p>Service Menu</p>
             </div>
             </a>
         
             <a class="navigation-group" id="nav3" href="./pre-service.html">
                 <div class="center-text">
-                <img class="navigation-image" src="images/hairy-peach-icon.png" height="100" width="100" alt="hairy peach [icon]">
+                <img class="navigation-image" src="images/hairy-peach-icon.png"  alt="hairy peach [icon]">
                 <p class="navigation-text">Pre-Appointment Care</p>
             </div>
             </a>
             <a class="navigation-group" id="nav4" href="./post-service.html">
                 <div class="center-text">
-                <img class="navigation-image" src="images/shiny-peach-icon.png" height="100" width="100" alt="shiny peach with no fuzz [icon]">
+                <img class="navigation-image" src="images/shiny-peach-icon.png"  alt="shiny peach with no fuzz [icon]">
                 <p class="navigation-text">Post-Appointment Care</p>
             </div>
             </a>
             <a class="navigation-group" id="nav2" href="./studio.html">
                 <div class="center-text">
-                <img class="navigation-image" src="images/door-icon.png" height="100" width="100" alt="open door [icon]">
+                <img class="navigation-image" src="images/door-icon.png"  alt="open door [icon]">
                 <p class="navigation-text">See the Studio</p>
             </div>
             </a>
             <a class="navigation-group" id="nav5" href="./what-is-sugaring.html">
                 <div class="center-text">
-                <img class="navigation-image" src="images/sugar-wax-blob-icon.png" height="100" width="100" alt="a bunch of grapes grouped together to look like a brain [icon]">
+                <img class="navigation-image" src="images/sugar-wax-blob-icon.png"  alt="a bunch of grapes grouped together to look like a brain [icon]">
                 <p class="navigation-text">What is Sugaring?</p>
             </div>
             </a>
             <a class="navigation-group" id="nav7" href="./staff.html">
                 <div class="center-text">
-                <img class="navigation-image" src="images/meet-sugarist-icon.png" height="100" width="100" alt="a self portrait with Jason's head in the shape of a strawberry [icon]">
+                <img class="navigation-image" src="images/meet-sugarist-icon.png"  alt="a self portrait with Jason's head in the shape of a strawberry [icon]">
                 <p class="navigation-text">Meet the Sugarist</p>
             </div>
             </a>
@@ -70,7 +72,7 @@
                 <p class="navigation-text">FAQs</p>
             </div>
             </a>
-            
+        </div>
         </nav>
 
     </header>
@@ -79,7 +81,7 @@
     
     <main class="navigation-padding medium-container">
         <h2>Meet The Sugarist</h2>
-        <div class="flex-container profile-box-style">
+        <div class="flex-container-break-900 profile-box-style">
             <div>
                 <img src="images/sugarist-cropped.png" width="300" alt="">
             </div>
@@ -100,13 +102,13 @@
         <section class="large-container">
             <div class="center-text flex-container flex-center">
                 
-                <a class="contact-me" href="#">
+                <a class="contact-me" href="tel:6078626262">
                     <div>
                         <img class="" src="images/banana-phone-icon.png" height="75" width="75" alt="banana that looks like a telephone [icon]">
                         <p class="">Call</p>
                     </div>
                 </a>
-                <a class="contact-me" href="#"></a>
+                <a class="contact-me" href="sms:6078626262">
                     <div>
                         <img class="" src="images/text-icon.png" height="75" width="75" alt="banana that looks like a telephone [icon]">
                         <p class="">Text</p>
@@ -116,8 +118,8 @@
         </section>
         <section>
             <div class="flex-container flex-center social-top-margin">
-                <a class="social" href="#">Facebook</a>
-                <a class="social" href="#">Instagram</a>
+                <a class="social" href="https://www.facebook.com/waxedfruitstudio/">Facebook</a>
+                <a class="social" href="https://www.instagram.com/waxedfruitstudio/">Instagram</a>
                 <a class="social" href="#">Yelp</a>
             </div>
         </section>
