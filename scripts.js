@@ -1,5 +1,6 @@
 function showAnswer(id){
     $("#"+id).toggle();
+    $("#reveal-"+id).toggle();
 }
 
 function toggleMenu() {

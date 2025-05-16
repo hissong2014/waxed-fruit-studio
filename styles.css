@@ -256,6 +256,13 @@ footer{
     cursor:pointer;
 }
 
+.reveal{
+    color:#19181a;
+    font-size:.8em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .answer{
     margin-top:20px;
     font-size:1.1em;
