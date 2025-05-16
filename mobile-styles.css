@@ -55,6 +55,11 @@
     .medium-container{
         width:100%;
         margin:0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
     }
 
     .menu {
@@ -111,6 +116,9 @@
         margin-bottom:40px;
      }
     
+     .margin-profile-description {
+        margin-left: 0px;
+      }
 
 }
 
