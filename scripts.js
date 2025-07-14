@@ -23,3 +23,16 @@ function toggleMenu() {
       document.getElementById("hamburger-menu").innerHTML = "☰ Menu";
     }
   });
+
+  $(window).scroll(function () {
+    var $heightScrolled = $(window).scrollTop();
+    var $defaultHeight = 50;
+
+    if ($heightScrolled < $defaultHeight) {
+        $('.navigation-image').removeClass("smaller-icon")
+    }
+    else {
+        $('.navigation-image').addClass("smaller-icon")
+    }
+
+});

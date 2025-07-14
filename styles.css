@@ -42,6 +42,11 @@
         height:100px;
     }
 
+    .smaller-icon{
+        width:50px!important;
+        height:50px!important;
+    }
+
     .navigation-group + .navigation-group{
         margin-left:40px;
     }
@@ -75,14 +80,16 @@
     }
 
     .book-button{
-        background-color:#f3811e;
+        width:300px;
+        background-color:#e62951;
         padding:10px 0 15px 0;
-        border-top: 4px solid green;
-        color:#ffffff;
+        border: 3px solid black;
+        color:white;
         font-size:18px;
         font-weight:800;
         display:block;
-        }
+        margin:0 auto;
+    }
 
 /* --------------------------------------Footer --------------------------------*/
 
@@ -122,8 +129,18 @@ footer{
 
 /*------- Index Page ------ */
 
-.main-image{
-    width:100%;
+.first-impression{
+    height:600px;
+    text-align: center;
+    
+}
+
+.business-name{
+    font-size:5em;
+}
+
+.slogan{
+    font-size:2em;
 }
 
 /*------- Menu & Pricing ------ */
@@ -311,6 +328,15 @@ footer{
     justify-content: center;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-perfect-center{
+    justify-content: center;
+    align-items: center;
+}
+
 .inline{
     display:inline;
 }
@@ -343,6 +369,10 @@ footer{
     width:100%;
 }
 
+.width-33{
+    width:32%;
+}
+
 .hide{
     display: none;
     overflow: hidden;
@@ -358,6 +388,10 @@ footer{
 
 .paragraph-margin-top{
     margin-top:15px;
+}
+
+.mt40{
+    margin-top:40px;
 }
 
 /* ----------------------------- Fonts ----------------------------------------- */
