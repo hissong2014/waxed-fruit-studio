@@ -18,15 +18,19 @@
 </head>
 <body>
 
-    <header>
-        <div>
-            <a href="index.html" class="logo"><h1>Waxed Fruit Studio</h1></a>
-            <a href="https://app.squareup.com/appointments/book/1d8sz0kznmmlar/LYA823FXXRSNJ/start" class="book-button center-text">Book An Appointment</a>
+    <header id="header-container">
+        <div class="logo-group">
+            <a href="index.html" class="logo">
+                <div class="center-text">
+                    <img src="images/logo.png" class="logo-image" width="100" alt="">
+                    <p>Home</p>
+                </div>
+            </a>
             <button id="hamburger-menu" class="toggle-button" onclick="toggleMenu()">☰ Menu</button>
         </div>
         <nav>  
               
-            
+ 
             <div id="menu" class="menu">
             <a class="navigation-group" id="nav1" href="./menu.html">
                 <div class="center-text">
@@ -34,7 +38,12 @@
                 <p>Service Menu</p>
             </div>
             </a>
-        
+            <a class="navigation-group" id="nav2" href="./studio.html">
+                <div class="center-text">
+                <img class="navigation-image" src="images/door-icon.png"  alt="open door [icon]">
+                <p class="navigation-text">See the Studio</p>
+            </div>
+            </a>
             <a class="navigation-group" id="nav3" href="./pre-service.html">
                 <div class="center-text">
                 <img class="navigation-image" src="images/hairy-peach-icon.png"  alt="hairy peach [icon]">
@@ -47,12 +56,7 @@
                 <p class="navigation-text">Post-Appointment Care</p>
             </div>
             </a>
-            <a class="navigation-group" id="nav2" href="./studio.html">
-                <div class="center-text">
-                <img class="navigation-image" src="images/door-icon.png"  alt="open door [icon]">
-                <p class="navigation-text">See the Studio</p>
-            </div>
-            </a>
+            
             <a class="navigation-group" id="nav5" href="./what-is-sugaring.html">
                 <div class="center-text">
                 <img class="navigation-image" src="images/sugar-wax-blob-icon.png"  alt="a bunch of grapes grouped together to look like a brain [icon]">
@@ -79,11 +83,12 @@
     
 
     
-    <main class="navigation-padding large-container">
+    <main class="navigation-padding large-container" id="main-content">
         <section class="content-menu small-container">
-            <h2>Services & Pricing</h2>
+            <a href="https://app.squareup.com/appointments/book/1d8sz0kznmmlar/LYA823FXXRSNJ/start" class="book-button center-text mt40">Schedule An Appointment</a>
+            <!--<h2 class="mt40">Services & Pricing</h2>-->
         
-            <ul>
+            <ul class="mt40">
                 
                 <li>
                     <div class="flex-container">
@@ -195,24 +200,26 @@
                             <p class="service-description">Both Underarms</p>
                             <img src="images/service-armpits.png" height="125" width="125" alt="">
                         </div>
-                        
                         <div class="flex-right text-right">
                             <p class="service-price">$25</p>
                             <button class="predetermined-book-service">Book Service</button>
                         </div>
-                        
-                        
                     </div>
-                    
-                    
                 </li>
                 <li>
                     <div class="flex-container">
-                        <p class="service-area">Half Arms</p>
-                        <p class="service-price flex-right">$30</p>
+                        <div>
+                            <p class="service-area">Half Arms</p>
+                            <p class="service-description">Hands to elbow</p>
+                            <img src="images/service-half-arms-v2.png" height="150" width="150" alt="">
+                        </div>
+                        
+                        
+                        <div class="flex-right text-right">
+                            <p class="service-price">$30</p>
+                            <button class="predetermined-book-service">Book Service</button>
+                        </div>
                     </div>
-                    <p class="service-description">Hands to elbow</p>
-                    <img src="images/service-half-arms-v2.png" height="150" width="150" alt="">
                 </li>
                 <li>
                     <div class="flex-container">
