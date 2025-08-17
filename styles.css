@@ -14,6 +14,7 @@
         -moz-box-sizing: border-box;    /* Firefox, other Gecko */
         box-sizing: border-box;         /* Opera/IE 8+ */
         padding: 15px 30px;
+        z-index: 1000;
     }
 
     .logo{
@@ -91,6 +92,10 @@
         font-weight:800;
         display:block;
         margin:0 auto;
+    }
+
+    .opacity-overlay{
+        opacity:20%;
     }
 
 /* --------------------------------------Footer --------------------------------*/
