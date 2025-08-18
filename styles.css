@@ -260,6 +260,11 @@ footer{
 
 /* ------- See The Studio ------*/
 
+.studio img{
+    width:40%;
+    padding:15px;
+}
+
 /* ------- What Is Sugaring ------*/
 
 .sugaring-explained h3{

@@ -146,6 +146,11 @@
         margin-bottom:40px;
     }
 
+    .studio img{
+    width:60%;
+    
+}
+
 }
 
 @media (max-width: 600px){
@@ -174,5 +179,10 @@
 .slogan{
     font-size:1.5em;
     margin-top:16px;
+}
+
+    .studio img{
+    width:80%;
+    
 }
 }
