@@ -136,6 +136,18 @@
 
 }
 
+@media (max-width: 800px){
+    .popular-services{
+        flex-direction: column;
+    }
+
+    .popular-services li{
+        width:100%;
+        margin-bottom:40px;
+    }
+
+}
+
 @media (max-width: 600px){
     .small-container{
         width:100%;
@@ -153,4 +165,14 @@
     .post-wax-avoid-card{
         width:80%;
     }
+
+    .business-name{
+    font-size:2em;
+    line-height:1em;
+}
+
+.slogan{
+    font-size:1.5em;
+    margin-top:16px;
+}
 }
