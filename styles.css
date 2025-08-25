@@ -130,6 +130,18 @@ footer{
     margin-left:100px;
 }
 
+    .footer-book-button{
+        width:200px;
+        background-color:#ffffff;
+        padding:10px 0 15px 0;
+        border: 2px solid black;
+        color:black;
+        font-size:.8em;
+        font-weight:800;
+        display:block;
+        margin:0 auto 20px auto;
+    }
+
 
 
 /* ----------------------------- Page Specific ------------------------------------ */
@@ -451,4 +463,8 @@ h2{
 
 .width-250{
     width:480px;
+}
+
+.width-125{
+    width:125px;
 }
