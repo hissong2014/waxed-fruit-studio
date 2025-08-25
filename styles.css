@@ -156,6 +156,7 @@ footer{
 
     .service-area, .service-price{
         font-size:2em;
+        line-height:1.1em;
     }
 
     .font-definition{
@@ -446,4 +447,8 @@ h2{
 .small-container{
     width:600px;
     margin:0 auto;
+}
+
+.width-250{
+    width:480px;
 }
