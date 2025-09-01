@@ -149,7 +149,7 @@ footer{
 /*------- Index Page ------ */
 
 .first-impression{
-    height:600px;
+    min-height:600px;
     text-align: center;
     
 }
@@ -157,6 +157,7 @@ footer{
 .business-name{
     font-size:4em;
     line-height:1em;
+    margin-bottom:50px;
 }
 
 .slogan{
@@ -443,6 +444,82 @@ h2{
     font-size:1.6em;
     margin-bottom:10px;
 }
+
+.font-racing {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-creepster {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-manufacturing{
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-rubik {
+  font-family: "Rubik Iso", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-trade-winds {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-sancreek {
+  font-family: "Sancreek", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-rubik-glitch {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-fascinate {
+  font-family: "Fascinate Inline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-smokum {
+  font-family: "Smokum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-ewert {
+  font-family: "Ewert", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-nosifer {
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ----------------------------- Containers ----------------------------------------- */
 
