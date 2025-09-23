@@ -142,9 +142,13 @@
     }
 
     .popular-services li{
-        width:100%;
+        width:90%;
         margin-bottom:40px;
     }
+
+    .popular-services li +  li {
+    margin-left:0px;
+}
 
     .studio img{
     width:60%;
