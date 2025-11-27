@@ -22,6 +22,8 @@ function toggleMenu() {
     }
   }
 
+  baguetteBox.run('.baguetteBoxTwo');
+
   window.addEventListener('resize', () => {
     const menu = document.getElementById('menu');
 
@@ -52,3 +54,11 @@ function toggleMenu() {
     }
 
 });
+
+window.onload = function() {
+  alert("yes");
+  baguetteBox.run('.baguetteBoxTwo', {
+    captions:true,
+    buttons:'auto'
+});
+};
