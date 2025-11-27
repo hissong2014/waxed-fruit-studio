@@ -56,7 +56,6 @@ function toggleMenu() {
 });
 
 window.onload = function() {
-  alert("yes");
   baguetteBox.run('.baguetteBoxTwo', {
     captions:true,
     buttons:'auto'
