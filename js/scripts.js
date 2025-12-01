@@ -22,8 +22,6 @@ function toggleMenu() {
     }
   }
 
-  baguetteBox.run('.baguetteBoxTwo');
-
   window.addEventListener('resize', () => {
     const menu = document.getElementById('menu');
 

@@ -177,6 +177,32 @@ footer{
     padding:20px;
 }
 
+.gift-card-card{
+    border:1px solid black;
+    border-radius: 10px;
+    width:250px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom:20px;
+}
+
+.gift-card h3{
+    font-size:1.5em;
+    font-weight:200;
+    margin-bottom:20px;
+}
+
+.gift-card-button{
+    width:200px;
+    background-color:#ffffff;
+    padding:10px 0 15px 0;
+    border: 2px solid black;
+    color:black;
+    font-size:1em;
+    font-weight:800;
+    display:block;
+    margin:0 auto 70px auto;
+}
+
 /*------- Menu & Pricing ------ */
 
     .service-area, .service-price{
