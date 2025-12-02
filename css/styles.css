@@ -186,17 +186,18 @@ footer{
 }
 
 .gift-card h3{
-    font-size:1.5em;
+    font-size:2em;
     font-weight:200;
     margin-bottom:20px;
+    color:#243288;
 }
 
 .gift-card-button{
     width:200px;
     background-color:#ffffff;
     padding:10px 0 15px 0;
-    border: 2px solid black;
-    color:black;
+    border: 2px solid #243288;
+    color:#243288;
     font-size:1em;
     font-weight:800;
     display:block;
