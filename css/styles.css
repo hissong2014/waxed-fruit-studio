@@ -179,7 +179,7 @@ footer{
 
 .popular{
     padding:20px;
-    border:6px ridge black;
+    border:6px ridge #c3f550;
 }
 
 
@@ -196,7 +196,20 @@ footer{
     background-color:#fffdd1;
 }
 
+.deep-purple-background{
+    background-color: #2a0f38;
+}
 
+
+.predetermined-book-service{
+    margin-top:10px;
+    border:2px solid #000000;
+    color:#000;
+    background:none;
+    font-size:.9em;
+    padding:8px 12px;
+    font-weight:600;
+    display:block;
 }
 
 .gift-card-card{
@@ -249,16 +262,7 @@ footer{
         padding-bottom:20px;
     }
 
-    .predetermined-book-service{
-        margin-top:10px;
-        border:2px solid black;
-        color:black;
-        background:none;
-        font-size:.9em;
-        padding:8px 12px;
-        font-weight:600;
-        display:block;
-    }
+
 
 /*------- Pre-Wax Care ------ */
 
