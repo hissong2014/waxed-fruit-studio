@@ -86,9 +86,9 @@
         width:300px;
         background-color:#e4e673;
         padding:10px 0 15px 0;
-        border: 3px solid black;
+        border: 5px ridge #8b8d04;
         color:black;
-        font-size:18px;
+        font-size:20px;
         font-weight:800;
         display:block;
         margin:0 auto;
@@ -167,7 +167,8 @@ footer{
 
 
 .popular-container{
-    background-color: red;
+    border:4px solid #f3811e;
+    background-color: #c93a35;
     padding:30px;
 }
 
@@ -179,7 +180,7 @@ footer{
 
 .popular{
     padding:20px;
-    border:6px ridge #c3f550;
+    border:4px solid #b3d028;
     background-color: #fff;
 }
 
@@ -188,7 +189,8 @@ footer{
 .popular-container .title{
     
     padding: 20px 0;
-   border:6px ridge #ff5bfc;
+    background-color: #f7f2dd;
+    border:4px solid #e7d20f;
 
     margin-bottom:30px;
 }
@@ -204,42 +206,17 @@ footer{
 
 .predetermined-book-service{
     margin-top:10px;
-    border:2px solid #000000;
-    color:#000;
-    background-color:#c3f550;
+
+    color:#07460a;
+    background-color:#b3d028;
+        border:4px ridge #9d7126;
     font-size:.9em;
     padding:8px 12px;
-    font-weight:600;
-    display:block;
-}
-
-.gift-card-card{
-    border:1px solid black;
-    border-radius: 10px;
-    width:250px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin-bottom:20px;
-}
-
-.gift-card h3{
-    font-size:2em;
-    font-weight:200;
-    margin-bottom:20px;
-    margin-top:40px;
-    color:#243288;
-}
-
-.gift-card-button{
-    width:200px;
-    background-color:#ffffff;
-    padding:10px 0 15px 0;
-    border: 2px solid #243288;
-    color:#243288;
-    font-size:1em;
     font-weight:800;
     display:block;
-    margin:0 auto 70px auto;
 }
+
+
 
 /*------- Menu & Pricing ------ */
 
