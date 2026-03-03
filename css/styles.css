@@ -113,6 +113,15 @@ h2{
         opacity:20%;
     }
 
+    body{
+        cursor:url('../images/icon-unriped-banana-cursor.png'),default;
+    }
+    
+
+    a{
+        cursor:url('../images/icon-shiny-banana-cursor.png'),pointer;
+    }
+
 /* --------------------------------------Footer --------------------------------*/
 
 footer{
